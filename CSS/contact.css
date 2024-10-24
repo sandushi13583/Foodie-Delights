@@ -1,0 +1,40 @@
+/* Resetting default margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set background image for the body */
+  body {
+    background-image: url("https://wallpapers.com/images/hd/pancakes-and-berries-on-the-plate-v9mjubf7z1zv80ek.jpg");
+    font-family: Arial, sans-serif;
+    color: black; 
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  /* Style for contact section */
+  .contact-section {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Optional: Add a semi-transparent background for better readability */
+  }
+  
+  /* Style for contact information */
+  .contact-info {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .contact-info p {
+    margin-bottom: 10px;
+  }
+  
+  .contact-info strong {
+    font-weight: bold;
+  }
+  
+  

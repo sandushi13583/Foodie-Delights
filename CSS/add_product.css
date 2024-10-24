@@ -1,0 +1,47 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-image: url("https://wallpapers.com/images/hd/food-4k-jx0j7rqea6yv9phh.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        h1 {
+            font-size: 60px;
+            text-align: center;
+            font-style: italic;
+            color: #fff;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            background-image: url("https://wallpapers.com/images/hd/food-4k-jx0j7rqea6yv9phh.jpg");
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: white;
+        }
+        input[type="text"],
+        textarea {
+            width: calc(100% - 12px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color:rgb(255, 196, 0);
+        }

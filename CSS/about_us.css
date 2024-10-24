@@ -1,0 +1,44 @@
+/* Styles for the background image and overall layout */
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .background-image {
+    background-image: url('https://www.zegelgezond.nl/wp-content/uploads/pexels-ella-olsson-1640777-scaled.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 800px;
+  }
+  
+  .about {
+    margin-bottom: 20px;
+  }
+  
+  /* Increase font size for the 'About Us' section */
+  .about h1 {
+    font-size: 3em; 
+  }
+  
+  .about p {
+    font-size: 1.2em; 
+    line-height: 1.8;
+  }
+  
+  /* Increase font size for the animated text */
+  #animatedText {
+    font-size: 2em;
+    color: brown; /* Modify the font-size as desired */
+  }
+  

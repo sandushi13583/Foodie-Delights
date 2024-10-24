@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Product</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/add_product.css">
+</head>
+<body>
+    <h1>Add Product</h1>
+    <form action="./add_product.php" method="post">
+        <label for="name">Product Name:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="price">Price:</label>
+        <input type="text" id="price" name="price">
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description"></textarea>
+
+        <label for="customization">Customization Options:</label>
+        <input type="text" id="customization" name="customization">
+
+        <input type="submit" value="Add Product">
+    </form>
+</body>
+</html>

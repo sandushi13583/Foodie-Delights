@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Trendy Restaurant</title>
+  <link rel="stylesheet" href="./CSS/about_us.css">
+</head>
+<body>
+  <div class="background-image">
+    <div class="container">
+      <section class="about">
+        <h1>About Us</h1>
+        <p>Welcome to our trendy restaurant! We believe in serving the most delicious and innovative dishes using the finest ingredients sourced locally. Our mission is to create a unique dining experience for our customers by blending exceptional food with a vibrant atmosphere.</p>
+        <p>At Trendy Restaurant, we are passionate about culinary artistry and strive to exceed our customers' expectations. Our diverse menu caters to various tastes, from classic favorites to exciting fusion creations.</p>
+        <p>Join us on a culinary journey and indulge in our delectable offerings prepared by our talented chefs. Whether you're dining in or ordering through our e-commerce platform, we aim to deliver excellence in every bite!</p>
+      </section>
+        <p id="animatedText"></p>
+    </div>
+  </div>
+
+  <script>
+    // JavaScript for animated text
+    const text = "Join us and experience food like never before!";
+    let index = 0;
+    const animatedText = document.getElementById("animatedText");
+
+    function animateText() {
+      if (index < text.length) {
+        animatedText.textContent += text.charAt(index);
+        index++;
+        setTimeout(animateText, 100); // Change the time delay for each character animation
+      }
+    }
+
+    animateText();
+  </script>
+  
+</body>
+</html>
